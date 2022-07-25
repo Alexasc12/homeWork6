@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание1
+
         int[] arrint = new int[3];
         arrint[0] = 1;
         arrint[1] = 2;
@@ -11,7 +11,6 @@ public class Main {
                 System.out.println(arrint[i]);
             } else System.out.println(arrint[i] + 1);
         }
-
         for (int i = 0; i < arrint.length; i++) {
             if (i == arrint.length - 1) {
                 System.out.println(arrint[i]);
@@ -25,8 +24,6 @@ public class Main {
             counter--;
         }
         System.out.println(arrint[0]);
-
-
         double[] arr1 = new double[]{1.57, 7.654, 9.986};{
         for (int i = 0; i < arr1.length - 1; i++) System.out.print(arr1[i] + ", ");
         System.out.println(arr1[arr1.length - 1]);}
@@ -49,12 +46,7 @@ public class Main {
             System.out.print(arr2[i] + ", ");
         }
         System.out.print(arr2[arr2.length - 1]);
-
-
-
-      // Задание4
-
-        }
+             }
         }
 
 
